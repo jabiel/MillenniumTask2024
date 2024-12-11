@@ -1,0 +1,22 @@
+@MillenniumJobTask_HostAddress = http://localhost:5233
+
+GET {{MillenniumJobTask_HostAddress}}/UserCard/User1/Card11
+Accept: application/json
+
+###
+
+GET {{MillenniumJobTask_HostAddress}}/UserCard/User3/Card32
+Accept: application/json
+
+###
+
+
+GET {{MillenniumJobTask_HostAddress}}/UserCard/XXXXX/YYYYY
+Accept: application/json
+
+###
+
+GET {{MillenniumJobTask_HostAddress}}/UserCard/a
+Accept: application/json
+
+###
