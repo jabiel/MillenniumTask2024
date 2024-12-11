@@ -4,7 +4,7 @@ namespace MillenniumJobTask.Logic.Services.Card
 {
     public class CardActionService : ICardActionService
     {
-        public readonly List<ActionMatrixItem> _cardActions = CreateSampleCardActionMatrix(); // AHTUNG! private
+        private readonly List<ActionMatrixItem> _cardActions = CreateSampleCardActionMatrix(); // AHTUNG! private
 
         private static List<ActionMatrixItem> CreateSampleCardActionMatrix()
         {

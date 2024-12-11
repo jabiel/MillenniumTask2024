@@ -4,7 +4,7 @@ namespace MillenniumJobTask.Logic.Services.Card
 {
     public class CardService : ICardService
     {
-        public readonly Dictionary<string, Dictionary<string, CardDetails>> _userCards = CreateSampleUserCards(); // AHTUNG! private
+        private readonly Dictionary<string, Dictionary<string, CardDetails>> _userCards = CreateSampleUserCards(); 
         public async Task<CardDetails?> GetCardDetails(string userId, string cardNumber)
         {
             // At this point, we would typically make an HTTP call to an external service
